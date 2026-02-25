@@ -1,4 +1,4 @@
-﻿<x-public-layout>
+<x-public-layout>
     <section class="relative overflow-hidden bg-brand-dark py-16">
         <div class="absolute inset-0">
             <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80" alt="" class="h-full w-full object-cover opacity-30">
@@ -13,86 +13,95 @@
     <section class="pt-16 pb-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="group rounded-2xl bg-white border border-slate-100 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_-35px_rgba(15,23,42,0.7)]">
+                <div class="group rounded-2xl bg-white border border-slate-200 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_34px_70px_-40px_rgba(15,23,42,0.75)]">
                     <div class="h-36">
                         <img src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?auto=format&fit=crop&w=800&q=80" alt="Web development" class="h-full w-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-brand-dark mb-2">Web Development</h3>
-                        <p class="text-sm text-gray-600">Responsive, high-performance websites using Laravel, Node.js, and React.</p>
+                        <p class="text-sm text-gray-600 mb-4">Responsive, high-performance websites using Laravel, Node.js, and React.</p>
+                        <a href="{{ route('services.show', 'web-development') }}" class="inline-flex items-center gap-2 rounded-lg border border-brand-cyan/50 px-4 py-2 text-xs font-bold uppercase tracking-wide text-brand-primary transition hover:bg-brand-cyan hover:text-brand-dark">Learn More</a>
                     </div>
                 </div>
 
-                <div class="group rounded-2xl bg-white border border-slate-100 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_-35px_rgba(15,23,42,0.7)]">
+                <div class="group rounded-2xl bg-white border border-slate-200 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_34px_70px_-40px_rgba(15,23,42,0.75)]">
                     <div class="h-36">
                         <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80" alt="Mobile apps" class="h-full w-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-brand-dark mb-2">Mobile Apps</h3>
-                        <p class="text-sm text-gray-600">Cross-platform (Android & iOS) applications built with Flutter.</p>
+                        <p class="text-sm text-gray-600 mb-4">Cross-platform (Android & iOS) applications built with Flutter.</p>
+                        <a href="{{ route('services.show', 'mobile-apps') }}" class="inline-flex items-center gap-2 rounded-lg border border-brand-cyan/50 px-4 py-2 text-xs font-bold uppercase tracking-wide text-brand-primary transition hover:bg-brand-cyan hover:text-brand-dark">Learn More</a>
                     </div>
                 </div>
 
-                <div class="group rounded-2xl bg-white border border-slate-100 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_-35px_rgba(15,23,42,0.7)]">
+                <div class="group rounded-2xl bg-white border border-slate-200 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_34px_70px_-40px_rgba(15,23,42,0.75)]">
                     <div class="h-36">
                         <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Desktop software" class="h-full w-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-brand-dark mb-2">Desktop Apps</h3>
-                        <p class="text-sm text-gray-600">Custom desktop solutions tailored to organizational workflows.</p>
+                        <p class="text-sm text-gray-600 mb-4">Custom desktop solutions tailored to organizational workflows.</p>
+                        <a href="{{ route('services.show', 'desktop-apps') }}" class="inline-flex items-center gap-2 rounded-lg border border-brand-cyan/50 px-4 py-2 text-xs font-bold uppercase tracking-wide text-brand-primary transition hover:bg-brand-cyan hover:text-brand-dark">Learn More</a>
                     </div>
                 </div>
 
-                <div class="group rounded-2xl bg-white border border-slate-100 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_-35px_rgba(15,23,42,0.7)]">
+                <div class="group rounded-2xl bg-white border border-slate-200 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_34px_70px_-40px_rgba(15,23,42,0.75)]">
                     <div class="h-36">
                         <img src="https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=800&q=80" alt="UI UX design" class="h-full w-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-brand-dark mb-2">Graphic & UI/UX</h3>
-                        <p class="text-sm text-gray-600">Digital branding, user interface design, and promotional creatives.</p>
+                        <p class="text-sm text-gray-600 mb-4">Digital branding, user interface design, and promotional creatives.</p>
+                        <a href="{{ route('services.show', 'graphic-ui-ux') }}" class="inline-flex items-center gap-2 rounded-lg border border-brand-cyan/50 px-4 py-2 text-xs font-bold uppercase tracking-wide text-brand-primary transition hover:bg-brand-cyan hover:text-brand-dark">Learn More</a>
                     </div>
                 </div>
 
-                <div class="group rounded-2xl bg-white border border-slate-100 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_-35px_rgba(15,23,42,0.7)]">
+                <div class="group rounded-2xl bg-white border border-slate-200 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_34px_70px_-40px_rgba(15,23,42,0.75)]">
                     <div class="h-36">
                         <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Data analytics" class="h-full w-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-brand-dark mb-2">AI & Data Analytics</h3>
-                        <p class="text-sm text-gray-600">AI-assisted reporting and intelligent insights for decision-making.</p>
+                        <p class="text-sm text-gray-600 mb-4">AI-assisted reporting and intelligent insights for decision-making.</p>
+                        <a href="{{ route('services.show', 'ai-data-analytics') }}" class="inline-flex items-center gap-2 rounded-lg border border-brand-cyan/50 px-4 py-2 text-xs font-bold uppercase tracking-wide text-brand-primary transition hover:bg-brand-cyan hover:text-brand-dark">Learn More</a>
                     </div>
                 </div>
 
-                <div class="group rounded-2xl bg-white border border-slate-100 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_-35px_rgba(15,23,42,0.7)]">
+                <div class="group rounded-2xl bg-white border border-slate-200 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_34px_70px_-40px_rgba(15,23,42,0.75)]">
                     <div class="h-36">
                         <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80" alt="API integration" class="h-full w-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-brand-dark mb-2">API Integration</h3>
-                        <p class="text-sm text-gray-600">Seamless system automation and secure data flow via APIs.</p>
+                        <p class="text-sm text-gray-600 mb-4">Seamless system automation and secure data flow via APIs.</p>
+                        <a href="{{ route('services.show', 'api-integration') }}" class="inline-flex items-center gap-2 rounded-lg border border-brand-cyan/50 px-4 py-2 text-xs font-bold uppercase tracking-wide text-brand-primary transition hover:bg-brand-cyan hover:text-brand-dark">Learn More</a>
                     </div>
                 </div>
 
-                <div class="group rounded-2xl bg-white border border-slate-100 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_-35px_rgba(15,23,42,0.7)]">
+                <div class="group rounded-2xl bg-white border border-slate-200 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_34px_70px_-40px_rgba(15,23,42,0.75)]">
                     <div class="h-36">
                         <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="IT training" class="h-full w-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-brand-dark mb-2">IT Training</h3>
-                        <p class="text-sm text-gray-600">Practical training programs that build real-world technical skills.</p>
+                        <p class="text-sm text-gray-600 mb-4">Practical training programs that build real-world technical skills.</p>
+                        <a href="{{ route('services.show', 'it-training') }}" class="inline-flex items-center gap-2 rounded-lg border border-brand-cyan/50 px-4 py-2 text-xs font-bold uppercase tracking-wide text-brand-primary transition hover:bg-brand-cyan hover:text-brand-dark">Learn More</a>
                     </div>
                 </div>
 
-                <div class="group rounded-2xl bg-white border border-slate-100 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_-35px_rgba(15,23,42,0.7)]">
+                <div class="group rounded-2xl bg-white border border-slate-200 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_34px_70px_-40px_rgba(15,23,42,0.75)]">
                     <div class="h-36">
                         <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="ICT supply" class="h-full w-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-brand-dark mb-2">ICT Supply</h3>
-                        <p class="text-sm text-gray-600">Supply and support of computers, networking equipment, and hardware.</p>
+                        <p class="text-sm text-gray-600 mb-4">Supply and support of computers, networking equipment, and hardware.</p>
+                        <a href="{{ route('services.show', 'ict-supply') }}" class="inline-flex items-center gap-2 rounded-lg border border-brand-cyan/50 px-4 py-2 text-xs font-bold uppercase tracking-wide text-brand-primary transition hover:bg-brand-cyan hover:text-brand-dark">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </x-public-layout>
+

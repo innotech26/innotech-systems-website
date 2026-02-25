@@ -14,7 +14,7 @@
         <div class="max-w-7xl mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 @forelse ($news as $post)
-                    <article class="service-card group relative p-6 rounded-2xl bg-white border border-slate-100 transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_-35px_rgba(15,23,42,0.7)]">
+                    <article class="service-card group relative p-6 rounded-2xl bg-white border border-slate-200 transition duration-300 hover:-translate-y-1 hover:border-brand-cyan/40 hover:shadow-[0_30px_60px_-35px_rgba(15,23,42,0.7)]">
                         <p class="text-xs uppercase tracking-widest text-brand-primary mb-2">Update</p>
                         <h2 class="text-xl font-bold text-brand-dark mb-2">{{ $post->title }}</h2>
                         <p class="text-sm text-gray-600 mb-4">{{ $post->excerpt }}</p>
