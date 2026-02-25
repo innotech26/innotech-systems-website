@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/innotechsystems/public_html/
     - /bin/cp -R * $DEPLOYPATH
+    - /bin/sh -c "if [ -f $DEPLOYPATH/artisan ]; then cd $DEPLOYPATH && php artisan optimize:clear; fi"

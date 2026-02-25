@@ -14,7 +14,7 @@
         <div class="max-w-7xl mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 @forelse ($projects as $project)
-                    <div class="group rounded-2xl bg-white border border-slate-100 overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_60px_-35px_rgba(15,23,42,0.7)]">
+                    <div class="group rounded-2xl bg-white border border-slate-200 overflow-hidden transition duration-300 hover:-translate-y-1 hover:border-brand-cyan/40 hover:shadow-[0_30px_60px_-35px_rgba(15,23,42,0.7)]">
                         <div class="h-40">
                             @if ($project->image_url)
                                 <img src="{{ $project->image_url }}" alt="{{ $project->title }}" class="h-full w-full object-cover">
