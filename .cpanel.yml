@@ -3,4 +3,8 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/innotechsystems/public_html/
     - /bin/cp -R * $DEPLOYPATH
+    - /bin/mkdir -p $DEPLOYPATH/build $DEPLOYPATH/images
+    - /bin/sh -c "if [ -d public/build ]; then /bin/cp -R public/build/* $DEPLOYPATH/build/; fi"
+    - /bin/sh -c "if [ -d public/images ]; then /bin/cp -R public/images/* $DEPLOYPATH/images/; fi"
+    - /bin/rm -f $DEPLOYPATH/hot $DEPLOYPATH/public/hot
     - /bin/sh -c "if [ -f $DEPLOYPATH/artisan ]; then cd $DEPLOYPATH && php artisan optimize:clear; fi"
